@@ -1,10 +1,10 @@
 {
-  "name": "KANGO-XMD",
+  "name": "Vimzy-XMD",
   "version": "2.4.5",
-  "description": "KANGO, the best WhatsApp Bot",
+  "description": "Vimzy, the best WhatsApp Bot",
   "logo": "https://i.imgur.com/1DkLGVk.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/OfficialKango/KANGO-XMD-LITE",
+  "repository": "https://github.com/VimzyCoolz/KANGO-XMD-LITE",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
@@ -12,22 +12,22 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your kango session id here; must start with KANGO~",
-      "value": "",
+      "value": "KANGO~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNEFmVjdBZ1ZtQ01QdThsVm5Rc1gxVlpDT0RJcDBXNTFEbnVDRFp4NC9Fdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZVVOME5qN2VoZi92VHUxYTFEelY0WHJTdG1ZdndvUzNua3F1UmJEeDFVUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPR0VlMnR4dHM5UitiUmZ0TGlZbm1laVQrSDdvYWd6WXNtT0hTKzRmN0ZzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBZ055N1pNOHBFVlhFdkw2Sm5Ia05SNHRzejdBTGFOTkdNOVMzV3FKS1Z3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBJaGtBZ2lBeVdRMkRxMXdoQlAxTkhYUkFZVlR0dnhhY2xOR1BZdHNMMnc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdOeFZYdEEvTUhReGErL1ZkTU5uVUtCakNIRW8rRkdrVktzSW9SRWJzbG89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUVlVjQxanJtenB6b3NSMjFvMG52V3phNXF1MVpRWHRoMXFjUDhwem8zST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia1FkL0drSHNyeWRrRzdvR2V5M0E3aERud0RUSjRyeWF2SW1vbURDWWtHVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVEUW1ybzVVZG9YejhlYjVCdEdqV29HVnA1S2hEcUM2SWhaWXJ2djJ6VzFicEplSTJzbmZvcmtBY3pYWGVxTnpGaUdzN3RsTFM5OGN6M3hFUzUyZ0JBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTk0LCJhZHZTZWNyZXRLZXkiOiJMUWhxZlloYSszc1E4cUIyYzVSc0E5QnpjbTFPOFpQcG1SNnBDMC9nYXAwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6ODEzLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6ODEzLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6IkFWRURTRVdFIiwibWUiOnsiaWQiOiIyNTQ3MDA0ODkzODg6NkBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJWaW16eSBDIFJ1dW5pYyIsImxpZCI6IjEyODY1MTYxODE1NjYwNzo2QGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTnp0ZytVSEVKL1BoY29HR0FRZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiU1J5dmFSWXBjZjdsRnBrRDR0c0NCa0hYc3pnQXJ4QzJYN1lBc2FzbHFWYz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiMzQrT1B4ckN3S3RjZjN6dlh2UTN2NUYrdXZVVVkwSzRCRWI0bFQzeGpKNFd2OGNOVmhFZjBhNWxEa3ROMUlpTFlueE9LZEZ5eFJKenViWkZVRjV5Q0E9PSIsImRldmljZVNpZ25hdHVyZSI6InYrK1liVHFOWVk5TVkyVDBKemk4bW43VE9yU3UvcTBBM2hEdmY4RTJwSjhPWitEVW5ZQ3NhbkVoelpCbkFRNzdwWHRtYVpuRGFtbDBkako0V2FmZkJnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMTI4NjUxNjE4MTU2NjA3OjZAbGlkIiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlVrY3Iya1dLWEgrNVJhWkErTGJBZ1pCMTdNNEFLOFF0bCsyQUxHckphbFgifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBMElCUWdDIn0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc2NTg5NDA2MSwibGFzdFByb3BIYXNoIjoiM1I5WjM5IiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFBQ3kifQ==",
       "required": false
     },
     "BOT_NAME": {
-      "description": "Enter your bot name here",
-      "value": "Kango-Bot",
+      "description": "E",
+      "value": "vimzy-Bot",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
-      "value": "",
+      "value": "+254700489388",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "VimzyCRuunic",
       "required": true
     },
     "STICKER_PACK_NAME": {
