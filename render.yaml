@@ -1,0 +1,38 @@
+# Render service manifest
+# Set sensitive env vars (SESSION_ID, GITHUB_TOKEN, etc.) in the Render Dashboard for security.
+# Update 'branch' to the branch you want Render to auto-deploy from.
+services:
+  - type: web
+    name: vimzy-xmd
+    env: docker
+    plan: free
+    region: oregon
+    branch: main
+    dockerfilePath: ./Dockerfile
+    # Build and start commands are optional for Docker services, but included for clarity.
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: BOT_NAME
+        value: "vimzy-Bot"
+      - key: OWNER_NUMBER
+        value: "+254700489388"
+      - key: OWNER_NAME
+        value: "VimzyCRuunic"
+      - key: STICKER_PACK_NAME
+        value: "Kango"
+      - key: STICKER_AUTHOR_NAME
+        value: "Kango"
+      - key: TIMEZONE
+        value: "Africa/Accra"
+      - key: PORT
+        value: "10000"
+    # Note: do NOT store secrets in this file for public repos.
+    # Instead set these in Render Dashboard as Environment/Secret variables:
+    # - SESSION_ID
+    # - GITHUB_TOKEN
+    # - HEROKU_API_KEY (if used)
+    # Example instructions:
+    # 1. Go to your Render Service > Environment
+    # 2. Add the above keys and paste secrets
